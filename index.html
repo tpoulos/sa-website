@@ -1,23 +1,79 @@
 ---
 layout: default
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<div>
+  <h1 id="title">Sean Ammirati</h1>
+</div>
+<div id="birchmereventures">
+  <h2> Investing in startups with Birchmere Ventures </h2>
+  <div>
+    <div>
+      <h3> Focused in early stage SaaS and marketplace startups </h3>
+      <p> We believe great entrepreneurs can live anywhere. I’m proud of the portfolio we’ve built by partnering with many of these amazing entrepreneurs. </p>
+    </div>
+    <div>
+      <img src="IMAGES/placeholder.png">
+      <a href="#" id="calltoaction"> See our portfolio </a>
+    </div>
+  </div>
+</div>
+<div id="teaching">
+  <div>
+    <h2> Teaching at Carnegie Mellon University </h2>
+  </div>
+  <div>
+    <div>
+      <iframe id="video" src="https://player.vimeo.com/video/199080863" width="540" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <a href="#" id="calltoaction"> Download syllabi </a>
+    </div>
+    <div>
+      <h3> Graduate courses including Lean Entrepreneurship and Science of Gth </h3>
+      <p> Providing experiential learning opportunities demonstrating to students how high-gth startups are built. </p>
+    </div>
+  </div>
+</div>
+<div id="scienceofgth">
+  <div>
+    <h2> Writing about innovation </h2>
+  </div>
+  <div>
+    <div>
+      <img src="IMAGES/scienceofgth.png" id="tools">
+      <div> <a href="#"> Purchase book </a> </div>
+      <a href="#"> Download audio book </a>
+    </div>
+    <div>
+      <div>
+        <h3> Including my best-selling book, The Science of Growth </h3>
+      </div>
+      <div id="testimonials">
+        <p> "In an unusually revelatory case based format, The Science of Gth provides an excellent guide for entreprenuers looking to scale their business."  - SEAN ELLIS FOUNDER AND CEO OF GTHHACKERS.COM </p>
+      </div>
+    </div>
+  </div>
+  <div id="corporatestartuplab">
+    <div>
+      <h2> Leading the Corporate Startup Lab at Carnegie Mellon University</h2>
+    </div>
+    <div>
+      <div>
+        <img src="IMAGES/tools.png" id="tools">
+        <a href="#" id="calltoaction"> Check out our tools </a>
+      </div>
+      <div>
+        <h3> Researching and promoting transformative innovation within large organizations </h3>
+        <p> An interdisciplinary group focused on helping corporate entrepreneurs make the world a better place using new ideas and inventions. </p>
+      </div>
+    </div>
+  </div>
+  <div>
+    <img src="IMAGES/bosch.png" id="bosch" class="logo">
+    <img src="IMAGES/techstars.png" id="techstars" class="logo">
+    <img src="IMAGES/bny.png" id="bny" class="logo">
+    <img src="IMAGES/socialsecurity.png" id ="socialsecurity" class="logo">
+    <img src="IMAGES/philips.png" id ="philips" class="logo">
+    <img src="IMAGES/pnc.png" id="bny" class="logo">
+    <img src="IMAGES/toyota.png" id ="toyota" class="logo">
+    <img src="IMAGES/alphalab.png" id="alphalab" class="logo">
+  </div>
 </div>
